@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/tetra-tech/main/json-schema/tetra-tech-water-quality-schema.json",
+  "title": "Water Quality Sample",
+  "description": "Schema representing a water quality sample collected as part of Tetra Tech environmental monitoring projects using the Cosmos platform or baytrends analysis tools.",
+  "type": "object",
+  "required": ["id", "stationId", "collectionDate", "parameters"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique sample identifier."
+    },
+    "stationId": {
+      "type": "string",
+      "description": "Monitoring station identifier."
+    },
+    "stationName": {
+      "type": "string",
+      "description": "Human-readable name of the monitoring station."
+    },
+    "collectionDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time of sample collection."
+    },
+    "collectedBy": {
+      "type": "string",
+      "description": "Name or ID of the field technician who collected the sample."
+    },
+    "location": {
+      "type": "object",
+      "description": "GPS coordinates of the sample collection point.",
+      "required": ["latitude", "longitude"],
+      "properties": {
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "datum": { "type": "string", "default": "WGS84" }
+      }
+    },
+    "parameters": {
+      "type": "array",
+      "description": "Measured water quality parameters.",
+      "items": {
+        "type": "object",
+        "required": ["name", "value", "unit"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Parameter name (e.g., pH, dissolved oxygen, turbidity, nitrate)."
+          },
+          "value": {
+            "type": "number",
+            "description": "Measured parameter value."
+          },
+          "unit": {
+            "type": "string",
+            "description": "Unit of measurement (e.g., mg/L, NTU, su)."
+          },
+          "method": {
+            "type": "string",
+            "description": "Analytical method used."
+          },
+          "qualifier": {
+            "type": "string",
+            "description": "Data qualifier flag (e.g., U for non-detect, J for estimated)."
+          }
+        }
+      }
+    },
+    "labId": {
+      "type": "string",
+      "description": "Laboratory identifier that analyzed the sample."
+    },
+    "projectId": {
+      "type": "string",
+      "description": "Associated Tetra Tech project identifier."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "created": { "type": "string", "format": "date-time" }
+  }
+}

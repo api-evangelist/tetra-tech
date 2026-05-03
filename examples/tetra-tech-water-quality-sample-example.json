@@ -1,0 +1,60 @@
+{
+  "id": "sample-chesapeake-2026-cb001-001",
+  "stationId": "CB-MON-001",
+  "stationName": "Chesapeake Bay Main Stem Station CB-001",
+  "collectionDate": "2026-04-15T09:30:00Z",
+  "collectedBy": "Field Technician J. Smith",
+  "location": {
+    "latitude": 38.9897,
+    "longitude": -76.4135,
+    "datum": "WGS84"
+  },
+  "parameters": [
+    {
+      "name": "pH",
+      "value": 7.8,
+      "unit": "su",
+      "method": "EPA 150.1",
+      "qualifier": null
+    },
+    {
+      "name": "Dissolved Oxygen",
+      "value": 8.2,
+      "unit": "mg/L",
+      "method": "EPA 360.1",
+      "qualifier": null
+    },
+    {
+      "name": "Turbidity",
+      "value": 12.5,
+      "unit": "NTU",
+      "method": "SM 2130 B",
+      "qualifier": null
+    },
+    {
+      "name": "Nitrate",
+      "value": 0.45,
+      "unit": "mg/L",
+      "method": "EPA 353.2",
+      "qualifier": null
+    },
+    {
+      "name": "Total Phosphorus",
+      "value": 0.032,
+      "unit": "mg/L",
+      "method": "EPA 365.3",
+      "qualifier": null
+    },
+    {
+      "name": "Chlorophyll-a",
+      "value": 4.8,
+      "unit": "ug/L",
+      "method": "EPA 445.0",
+      "qualifier": null
+    }
+  ],
+  "labId": "LAB-CHESAPEAKE-ENV-001",
+  "projectId": "proj-chesapeake-bay-monitoring-2026",
+  "tags": ["Chesapeake Bay", "Water Quality", "Environmental Monitoring"],
+  "created": "2026-04-15T14:22:00Z"
+}

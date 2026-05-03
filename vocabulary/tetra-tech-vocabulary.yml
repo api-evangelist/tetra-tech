@@ -1,0 +1,140 @@
+name: Tetra Tech Vocabulary
+description: >-
+  Vocabulary of domain-specific terms used in Tetra Tech engineering and
+  consulting services, covering environmental science, water quality,
+  infrastructure, digital analytics, and project management domains.
+url: https://www.tetratech.com/
+tags:
+  - Analytics
+  - Consulting
+  - Engineering
+  - Environment
+  - Water
+created: '2026-05-03'
+modified: '2026-05-03'
+
+terms:
+  - term: Tetra Tech Delta
+    definition: >-
+      The brand name for Tetra Tech's suite of advanced digital solutions,
+      encompassing data analytics, artificial intelligence, process automation,
+      OT/IT integration, and cloud platform services. Tetra Tech Delta delivers
+      transformational technology-driven solutions across environmental, water,
+      infrastructure, and industrial sectors.
+    tags:
+      - Digital Transformation
+
+  - term: Cosmos Platform
+    definition: >-
+      Tetra Tech's proprietary mobile data collection platform for field projects.
+      Cosmos enables real-time data capture by field teams, project management,
+      quality assurance workflows, and API/webhook-based integration with enterprise
+      systems for automated data synchronization.
+    tags:
+      - Data Collection
+
+  - term: baytrends
+    definition: >-
+      An open-source R package developed by Tetra Tech for evaluating long-term
+      water quality trends using Generalized Additive Modeling (GAM). baytrends is
+      used extensively for Chesapeake Bay water quality monitoring and trend analysis,
+      applying statistical models to seasonal and annual water quality datasets.
+    tags:
+      - Water Quality
+      - Open Source
+
+  - term: WaterNet
+    definition: >-
+      Tetra Tech's SaaS water network management platform for utilities. WaterNet
+      provides data-driven operational intelligence for water infrastructure management,
+      supporting asset health analysis, leak detection, and capital planning.
+    tags:
+      - Water Infrastructure
+
+  - term: Data Discovery Tool (DDT)
+    definition: >-
+      An open-source environmental data analysis application developed by Tetra Tech
+      in partnership with USEPA. The DDT enables querying, visualization, and quality
+      control of environmental monitoring datasets. The source code is available on
+      the Tetra Tech GitHub organization.
+    tags:
+      - Environmental
+      - Open Source
+
+  - term: Electronic Data Deliverable (EDD)
+    definition: >-
+      A standardized electronic format for transmitting environmental analytical
+      data from laboratories to project databases. Tetra Tech defines EDD formats
+      for their data management systems, enabling automated ingestion of laboratory
+      results into environmental databases.
+    tags:
+      - Environmental Data
+
+  - term: Water Quality Parameter
+    definition: >-
+      A measurable chemical, physical, or biological characteristic of water used
+      to assess its condition for drinking, ecological, or regulatory purposes.
+      Common parameters include pH, dissolved oxygen, turbidity, nitrate, total
+      phosphorus, and chlorophyll-a.
+    tags:
+      - Water Quality
+
+  - term: Monitoring Station
+    definition: >-
+      A designated geographic location where environmental samples are collected
+      or sensors are deployed for continuous measurement. Monitoring stations are
+      identified by unique IDs and GPS coordinates, forming the backbone of
+      environmental monitoring networks.
+    tags:
+      - Environmental Monitoring
+
+  - term: GAM (Generalized Additive Model)
+    definition: >-
+      A statistical modeling technique used in Tetra Tech's baytrends package to
+      evaluate non-linear trends in water quality time series. GAM separates
+      long-term trends from seasonal variation and hydrological flow effects to
+      reveal underlying water quality changes.
+    tags:
+      - Analytics
+      - Water Quality
+
+  - term: Leading with Science
+    definition: >-
+      Tetra Tech's core corporate philosophy and brand positioning, reflecting their
+      commitment to applying scientific rigor and data-driven approaches to solve
+      complex environmental, infrastructure, and international development challenges.
+    tags:
+      - Company
+
+  - term: OT/IT Integration
+    definition: >-
+      The convergence of Operational Technology (OT) systems such as SCADA, DCS,
+      and PLCs with Information Technology (IT) enterprise systems. Tetra Tech Delta
+      and acquired firm TIGA specialize in OT/IT integration for water utilities,
+      energy facilities, and industrial operations.
+    tags:
+      - Digital Transformation
+
+  - term: SCADA
+    definition: >-
+      Supervisory Control and Data Acquisition — industrial control systems used
+      by water utilities, energy companies, and industrial facilities to monitor
+      and control infrastructure. Tetra Tech provides SCADA integration, cybersecurity,
+      and digital transformation services for SCADA environments.
+    tags:
+      - Industrial
+
+  - term: Government Services Group (GSG)
+    definition: >-
+      One of Tetra Tech's two primary business groups, providing consulting,
+      engineering, and technology services to federal, state, and local government
+      clients in the United States and internationally.
+    tags:
+      - Company
+
+  - term: Commercial International Services Group (CIG)
+    definition: >-
+      Tetra Tech's business group serving commercial and international clients
+      across environmental, water, infrastructure, and energy sectors worldwide.
+    tags:
+      - Company

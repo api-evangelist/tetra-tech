@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "envo": "http://purl.obolibrary.org/obo/ENVO_",
+    "tt": "https://raw.githubusercontent.com/api-evangelist/tetra-tech/main/vocabulary/tetra-tech-vocabulary.yml#",
+
+    "Project": {
+      "@id": "schema:Project",
+      "@type": "@id"
+    },
+    "WaterQualitySample": {
+      "@id": "tt:WaterQualitySample",
+      "@type": "@id"
+    },
+    "MonitoringStation": {
+      "@id": "tt:MonitoringStation",
+      "@type": "@id"
+    },
+    "WaterQualityParameter": {
+      "@id": "tt:WaterQualityParameter",
+      "@type": "@id"
+    },
+
+    "id": "@id",
+    "name": "schema:name",
+    "description": "schema:description",
+    "created": { "@id": "schema:dateCreated", "@type": "xsd:dateTime" },
+    "modified": { "@id": "schema:dateModified", "@type": "xsd:date" },
+    "tags": "schema:keywords",
+
+    "type": "tt:projectType",
+    "status": "tt:projectStatus",
+    "client": { "@id": "schema:client", "@type": "@id" },
+    "location": { "@id": "schema:location", "@type": "@id" },
+    "dataCollections": { "@id": "tt:dataCollections", "@container": "@set" },
+    "analytics": "tt:analytics",
+
+    "stationId": "tt:stationId",
+    "stationName": "schema:name",
+    "collectionDate": { "@id": "tt:collectionDate", "@type": "xsd:dateTime" },
+    "collectedBy": "tt:collectedBy",
+    "parameters": { "@id": "tt:parameters", "@container": "@set" },
+    "labId": "tt:labId",
+    "projectId": "tt:projectId",
+
+    "latitude": "geo:lat",
+    "longitude": "geo:long",
+    "datum": "tt:geodeticDatum",
+
+    "value": "schema:value",
+    "unit": "schema:unitCode",
+    "method": "tt:analyticalMethod",
+    "qualifier": "tt:dataQualifier"
+  }
+}

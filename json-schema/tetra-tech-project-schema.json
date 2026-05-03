@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/tetra-tech/main/json-schema/tetra-tech-project-schema.json",
+  "title": "Tetra Tech Project",
+  "description": "Schema representing an engineering or consulting project managed through Tetra Tech's digital data collection and analytics platforms.",
+  "type": "object",
+  "required": ["id", "name", "type", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique project identifier."
+    },
+    "name": {
+      "type": "string",
+      "description": "Project name."
+    },
+    "description": {
+      "type": "string",
+      "description": "Project description and scope."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["environmental", "water", "infrastructure", "energy", "international-development", "federal-it"],
+      "description": "Tetra Tech service domain the project falls under."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["planning", "active", "monitoring", "complete"],
+      "description": "Current project lifecycle status."
+    },
+    "client": {
+      "type": "object",
+      "description": "Client or organization the project serves.",
+      "properties": {
+        "name": { "type": "string" },
+        "sector": {
+          "type": "string",
+          "enum": ["government", "utility", "industrial", "commercial", "nonprofit"]
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "description": "Geographic location of the project.",
+      "properties": {
+        "country": { "type": "string" },
+        "state": { "type": "string" },
+        "region": { "type": "string" },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "latitude": { "type": "number" },
+            "longitude": { "type": "number" }
+          }
+        }
+      }
+    },
+    "dataCollections": {
+      "type": "array",
+      "description": "Field data collection events associated with the project.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "method": { "type": "string" },
+          "samples": { "type": "integer" }
+        }
+      }
+    },
+    "analytics": {
+      "type": "object",
+      "description": "Data analytics configuration for the project.",
+      "properties": {
+        "platform": { "type": "string" },
+        "models": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "outputs": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "created": { "type": "string", "format": "date" },
+    "modified": { "type": "string", "format": "date" }
+  }
+}

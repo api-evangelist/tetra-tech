@@ -1,0 +1,47 @@
+{
+  "title": "Tetra Tech Project Structure",
+  "description": "Structural documentation for Tetra Tech consulting project data objects.",
+  "type": "object",
+  "fields": [
+    { "name": "id", "type": "string", "required": true },
+    { "name": "name", "type": "string", "required": true },
+    { "name": "description", "type": "string", "required": false },
+    {
+      "name": "type",
+      "type": "string",
+      "required": true,
+      "enum": ["environmental", "water", "infrastructure", "energy", "international-development", "federal-it"]
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "enum": ["planning", "active", "monitoring", "complete"]
+    },
+    {
+      "name": "client",
+      "type": "object",
+      "required": false,
+      "fields": [
+        { "name": "name", "type": "string" },
+        { "name": "sector", "type": "string" }
+      ]
+    },
+    {
+      "name": "location",
+      "type": "object",
+      "required": false,
+      "fields": [
+        { "name": "country", "type": "string" },
+        { "name": "state", "type": "string" },
+        { "name": "region", "type": "string" },
+        { "name": "coordinates", "type": "object" }
+      ]
+    },
+    { "name": "dataCollections", "type": "array", "required": false },
+    { "name": "analytics", "type": "object", "required": false },
+    { "name": "tags", "type": "array", "required": false },
+    { "name": "created", "type": "string", "format": "date", "required": false },
+    { "name": "modified", "type": "string", "format": "date", "required": false }
+  ]
+}

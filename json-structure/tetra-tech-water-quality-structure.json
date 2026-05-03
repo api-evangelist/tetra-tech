@@ -1,0 +1,41 @@
+{
+  "title": "Water Quality Sample Structure",
+  "description": "Structural documentation for water quality sample records collected via Tetra Tech monitoring platforms.",
+  "type": "object",
+  "fields": [
+    { "name": "id", "type": "string", "required": true },
+    { "name": "stationId", "type": "string", "required": true },
+    { "name": "stationName", "type": "string", "required": false },
+    { "name": "collectionDate", "type": "string", "format": "date-time", "required": true },
+    { "name": "collectedBy", "type": "string", "required": false },
+    {
+      "name": "location",
+      "type": "object",
+      "required": false,
+      "fields": [
+        { "name": "latitude", "type": "number", "required": true },
+        { "name": "longitude", "type": "number", "required": true },
+        { "name": "datum", "type": "string", "required": false }
+      ]
+    },
+    {
+      "name": "parameters",
+      "type": "array",
+      "required": true,
+      "items": {
+        "type": "object",
+        "fields": [
+          { "name": "name", "type": "string", "required": true },
+          { "name": "value", "type": "number", "required": true },
+          { "name": "unit", "type": "string", "required": true },
+          { "name": "method", "type": "string", "required": false },
+          { "name": "qualifier", "type": "string", "required": false }
+        ]
+      }
+    },
+    { "name": "labId", "type": "string", "required": false },
+    { "name": "projectId", "type": "string", "required": false },
+    { "name": "tags", "type": "array", "required": false },
+    { "name": "created", "type": "string", "format": "date-time", "required": false }
+  ]
+}

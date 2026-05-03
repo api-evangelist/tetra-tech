@@ -1,0 +1,42 @@
+{
+  "id": "proj-chesapeake-bay-monitoring-2026",
+  "name": "Chesapeake Bay Long-Term Water Quality Monitoring",
+  "description": "Multi-year environmental monitoring project evaluating water quality trends across the Chesapeake Bay watershed using Tetra Tech's Cosmos data collection platform and baytrends GAM analysis tools.",
+  "type": "environmental",
+  "status": "active",
+  "client": {
+    "name": "Maryland Department of the Environment",
+    "sector": "government"
+  },
+  "location": {
+    "country": "United States",
+    "state": "Maryland",
+    "region": "Mid-Atlantic",
+    "coordinates": {
+      "latitude": 38.9897,
+      "longitude": -76.4135
+    }
+  },
+  "dataCollections": [
+    {
+      "id": "dc-2026-q1",
+      "date": "2026-01-15",
+      "method": "Field grab sampling",
+      "samples": 42
+    },
+    {
+      "id": "dc-2026-q2",
+      "date": "2026-04-15",
+      "method": "Field grab sampling",
+      "samples": 48
+    }
+  ],
+  "analytics": {
+    "platform": "baytrends R package",
+    "models": ["GAM", "LOWESS trend", "Seasonal Kendall"],
+    "outputs": ["Trend report", "Dashboard visualization", "Annual summary PDF"]
+  },
+  "tags": ["Chesapeake Bay", "Environmental Monitoring", "GAM Analysis", "Water Quality"],
+  "created": "2026-01-01",
+  "modified": "2026-05-03"
+}
