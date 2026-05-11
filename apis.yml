@@ -145,3 +145,7 @@ common:
     url: https://raw.githubusercontent.com/api-evangelist/tetra-tech/main/json-ld/tetra-tech-context.jsonld
   - type: Vocabulary
     url: https://raw.githubusercontent.com/api-evangelist/tetra-tech/main/vocabulary/tetra-tech-vocabulary.yml
+  - type: Integrations
+    url: https://www.tetratech.com/integrations/
+integrations:
+  - name: Tetra Tech
