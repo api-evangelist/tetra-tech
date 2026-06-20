@@ -31,7 +31,7 @@ apis:
       enables integration with third-party enterprise systems, allowing automated
       data synchronization, webhook event notifications, and data export in industry
       standard formats including JSON and CSV.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cosmos.tetratech.com/
     baseURL: https://cosmos.tetratech.com/
     tags:
@@ -52,7 +52,7 @@ apis:
       data query, analysis, and visualization capabilities for environmental monitoring
       datasets. The application is available on GitHub with R-based data processing
       APIs for water quality trend analysis.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/tetratech/DataDiscoveryTool
     baseURL: https://github.com/tetratech/DataDiscoveryTool
     tags:
@@ -72,7 +72,7 @@ apis:
       long-term trends in Chesapeake Bay and similar water bodies using Generalized
       Additive Modeling (GAM). The package exposes functions as a programmatic API
       for water quality data ingestion, trend analysis, and visualization.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/tetratech/baytrends
     baseURL: https://github.com/tetratech/baytrends
     tags:
@@ -94,7 +94,7 @@ apis:
       historian development, automated reporting, enterprise data integration,
       SCADA/OT system integration, and AI-powered analytics through cloud and
       on-premise deployments.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.tetratech.com/tetra-tech-delta/
     baseURL: https://www.tetratech.com/
     tags:
@@ -114,7 +114,7 @@ apis:
       It provides data-driven insights for water infrastructure management, enabling
       utilities to monitor network performance, analyze asset health, and support
       decision-making for capital planning and operations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.tetratech.com/solutions/one-water/digital-water/
     baseURL: https://www.tetratech.com/
     tags:
