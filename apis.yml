@@ -128,6 +128,10 @@ apis:
         url: https://www.tetratech.com/solutions/one-water/digital-water/
 
 common:
+  - type: DomainSecurity
+    url: security/tetra-tech-domain-security.yml
+  - url: https://www.tetratech.com/feed/
+    type: Blog
   - type: Website
     url: https://www.tetratech.com/
   - type: GitHubOrg
