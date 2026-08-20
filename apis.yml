@@ -52,6 +52,11 @@ apis:
       - Data Collection
       - Field Data
       - Mobile
+      - Webhook
+    tags_raw:
+      - Data Collection
+      - Field Data
+      - Mobile
       - Webhooks
     properties:
       - type: Documentation
@@ -70,6 +75,11 @@ apis:
     humanURL: https://github.com/tetratech/DataDiscoveryTool
     baseURL: https://github.com/tetratech/DataDiscoveryTool
     tags:
+      - Environmental
+      - Open-Source
+      - USEPA
+      - Water Quality
+    tags_raw:
       - Environmental
       - Open Source
       - USEPA
@@ -90,6 +100,12 @@ apis:
     humanURL: https://github.com/tetratech/baytrends
     baseURL: https://github.com/tetratech/baytrends
     tags:
+      - Chesapeake Bay
+      - Environmental
+      - Open-Source
+      - R Package
+      - Water Quality
+    tags_raw:
       - Chesapeake Bay
       - Environmental
       - Open Source
@@ -132,6 +148,10 @@ apis:
     humanURL: https://www.tetratech.com/solutions/one-water/digital-water/
     baseURL: https://www.tetratech.com/
     tags:
+      - Software-as-a-Service
+      - Water Infrastructure
+      - Utilities
+    tags_raw:
       - SaaS
       - Water Infrastructure
       - Utilities
