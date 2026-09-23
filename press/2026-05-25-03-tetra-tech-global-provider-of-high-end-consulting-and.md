@@ -1,7 +1,9 @@
 ---
 title: Tetra Tech - Global provider of high-end consulting and ...
 url: https://www.tetratech.com/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tetra Tech" press release artificial intelligence'
 position: 3
 source: serpapi-google

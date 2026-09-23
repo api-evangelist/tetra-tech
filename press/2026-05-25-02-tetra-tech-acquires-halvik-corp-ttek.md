@@ -1,7 +1,9 @@
 ---
 title: Tetra Tech Acquires Halvik Corp - TTEK
 url: https://www.stocktitan.net/news/TTEK/tetra-tech-acquires-halvik-uyvqhakxk9au.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tetra Tech" press release artificial intelligence'
 position: 2
 source: serpapi-google

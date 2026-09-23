@@ -1,7 +1,9 @@
 ---
 title: Tetra Tech has been awarded an expanded One ...
 url: https://www.instagram.com/p/DIMVWM5S37u/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tetra Tech" press release artificial intelligence'
 position: 5
 source: serpapi-google
