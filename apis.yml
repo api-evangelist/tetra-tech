@@ -87,7 +87,7 @@ apis:
     baseURL: https://github.com/tetratech/DataDiscoveryTool
     tags:
       - Environmental
-      - Open-Source
+      - Open Source
       - USEPA
       - Water Quality
     tags_raw:
@@ -95,6 +95,7 @@ apis:
       - Open Source
       - USEPA
       - Water Quality
+      - Open-Source
     properties:
       - type: Documentation
         url: https://github.com/tetratech/DataDiscoveryTool
@@ -113,7 +114,7 @@ apis:
     tags:
       - Chesapeake Bay
       - Environmental
-      - Open-Source
+      - Open Source
       - R Package
       - Water Quality
     tags_raw:
@@ -122,6 +123,7 @@ apis:
       - Open Source
       - R Package
       - Water Quality
+      - Open-Source
     properties:
       - type: Documentation
         url: https://github.com/tetratech/baytrends
@@ -137,7 +139,6 @@ apis:
       on-premise deployments.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.tetratech.com/tetra-tech-delta/
-    baseURL: https://www.tetratech.com/
     tags:
       - Analytics
       - Data Management
@@ -157,7 +158,6 @@ apis:
       decision-making for capital planning and operations.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.tetratech.com/solutions/one-water/digital-water/
-    baseURL: https://www.tetratech.com/
     tags:
       - Software-as-a-Service
       - Water Infrastructure
