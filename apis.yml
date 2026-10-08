@@ -173,6 +173,12 @@ apis:
         url: https://www.tetratech.com/solutions/one-water/digital-water/
 
 common:
+  - type: Plans
+    url: plans/tetra-tech-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/tetra-tech-rate-limits.yml
+  - type: FinOps
+    url: finops/tetra-tech-finops.yml
   - type: DomainSecurity
     url: security/tetra-tech-domain-security.yml
   - url: https://www.tetratech.com/feed/
